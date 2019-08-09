@@ -19,12 +19,12 @@
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
   <DisplayName DefaultValue="Secure AK" />
   <Description DefaultValue="Secure AK Outlook Web Add-In"/>
-  <IconUrl DefaultValue="~remoteAppUrl/Images/icon64.png"/>
+  <IconUrl DefaultValue="~remoteAppUrl/Images/Icon64.png"/>
 
   <SupportUrl DefaultValue="https://vbmalaska.com" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
   <AppDomains>
-    <AppDomain>AppDomain1</AppDomain>
+    <AppDomain>secureak.jeremybloomstrom.com</AppDomain>
     <AppDomain>AppDomain2</AppDomain>
     <AppDomain>AppDomain3</AppDomain>
   </AppDomains>
@@ -117,9 +117,9 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="~remoteAppUrl/Images/icon16.png"/>
-        <bt:Image id="icon32" DefaultValue="~remoteAppUrl/Images/icon32.png"/>
-        <bt:Image id="icon80" DefaultValue="~remoteAppUrl/Images/icon80.png"/>
+        <bt:Image id="icon16" DefaultValue="~remoteAppUrl/Images/Icon16.png"/>
+        <bt:Image id="icon32" DefaultValue="~remoteAppUrl/Images/Icon32.png"/>
+        <bt:Image id="icon80" DefaultValue="~remoteAppUrl/Images/Icon80.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="functionFile" DefaultValue="~remoteAppUrl/Functions/FunctionFile.html"/>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="SecureAKWebAddin"
-     ProductID="{1ded29dc-f90a-417e-9f97-7a736a6df65f}"
+     ProductID="{2ae61088-c582-448f-aec0-16bdfe407bb0}"
      Version="1.0.0.0"
      SharePointMinVersion="15.0.0.0"
 >
