@@ -1,0 +1,2 @@
+C:\Users\jeremy\Code\secure-ak\SecureAKWebAddin\SecureAKWebAddin\obj\Debug\SecureAKWebAddin.csprojAssemblyReference.cache
+C:\Users\jeremy\Code\secure-ak\SecureAKWebAddin\SecureAKWebAddin\obj\Debug\SecureAKWebAddin.csproj.CoreCompileInputs.cache

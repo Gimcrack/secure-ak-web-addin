@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\SecureAKWebAddinManifest.xml
+C:\Users\jeremy\Code\secure-ak\SecureAKWebAddin\SecureAKWebAddin\bin\Debug\SecureAKWebAddin.debugapp
