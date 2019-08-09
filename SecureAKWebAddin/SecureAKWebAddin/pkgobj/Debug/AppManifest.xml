@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Published:70EDFC97-B41D-43C5-B751-7C00AD999804-->
-<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="SecureAKWebAddin" ProductID="{8c0f20d5-605a-4bb5-8402-55e49a756a4d}" Version="1.0.0.0" SharePointMinVersion="15.0.0.0">
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="SecureAKWebAddin" ProductID="{1ded29dc-f90a-417e-9f97-7a736a6df65f}" Version="1.0.0.0" SharePointMinVersion="15.0.0.0">
   <Properties>
     <Title>SecureAKWebAddin</Title>
     <StartPage>https://go.microsoft.com/fwlink/?LinkID=278993</StartPage>
