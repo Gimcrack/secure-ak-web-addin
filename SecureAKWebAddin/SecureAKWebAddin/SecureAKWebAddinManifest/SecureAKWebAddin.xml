@@ -130,12 +130,12 @@
         <bt:String id="customTabLabel"  DefaultValue="Secure AK"/>
         <bt:String id="paneReadButtonLabel" DefaultValue="Encrypt This Message"/>
         <bt:String id="decryptAndSendLabel" DefaultValue="Decrypt This Message"/>
-        <bt:String id="paneReadSuperTipTitle" DefaultValue="Encrypt the message and send it"/>
-        <bt:String id="decryptAndSendSuperTipTitle" DefaultValue="Decrypt the message and send it"/>
+        <bt:String id="paneReadSuperTipTitle" DefaultValue="Encrypt the message"/>
+        <bt:String id="decryptAndSendSuperTipTitle" DefaultValue="Decrypt the message"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="paneReadSuperTipDescription" DefaultValue="Encrypt the message and send it"/>
-        <bt:String id="decryptAndSendSuperTipDesc" DefaultValue="Decrypt the message and send it"/>
+        <bt:String id="paneReadSuperTipDescription" DefaultValue="Encrypt the message"/>
+        <bt:String id="decryptAndSendSuperTipDesc" DefaultValue="Decrypt the message"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
