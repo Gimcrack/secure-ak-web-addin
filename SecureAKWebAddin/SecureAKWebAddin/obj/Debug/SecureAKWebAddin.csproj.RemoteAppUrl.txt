@@ -1,1 +1,1 @@
-https://secureak.jeremybloomstrom.com/
+https://localhost:44382/

@@ -13,18 +13,18 @@
   <Id>dc89d783-52ca-4094-b71b-0f8ff100cd13</Id>
 
   <!--Version. Updates from the store only get triggered if there is a version change. -->
-  <Version>1.0.0.1</Version>
+  <Version>1.0.0.0</Version>
   <ProviderName>Jeremy Bloomstrom</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
   <DisplayName DefaultValue="Secure AK" />
   <Description DefaultValue="Secure AK Outlook Web Add-In"/>
-  <IconUrl DefaultValue="https://localhost:44382/Images/icon64.png"/>
+  <IconUrl DefaultValue="https://localhost:44382/Images/Icon64.png"/>
 
-  <SupportUrl DefaultValue="http://www.contoso.com" />
+  <SupportUrl DefaultValue="https://vbmalaska.com" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
   <AppDomains>
-    <AppDomain>AppDomain1</AppDomain>
+    <AppDomain>secureak.jeremybloomstrom.com</AppDomain>
     <AppDomain>AppDomain2</AppDomain>
     <AppDomain>AppDomain3</AppDomain>
   </AppDomains>
@@ -35,7 +35,7 @@
   </Hosts>
   <Requirements>
     <Sets>
-      <Set Name="Mailbox" MinVersion="1.7" />
+      <Set Name="Mailbox" MinVersion="1.1" />
     </Sets>
   </Requirements>
   <FormSettings>
@@ -54,7 +54,7 @@
 
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="VersionOverridesV1_0">
     <Requirements>
-      <bt:Sets DefaultMinVersion="1.7">
+      <bt:Sets DefaultMinVersion="1.1">
         <bt:Set Name="Mailbox" />
       </bt:Sets>
     </Requirements>
@@ -104,7 +104,6 @@
                     <FunctionName>decryptAndSend</FunctionName>
                   </Action>
                 </Control>
-
                 
                 <!-- Go to http://aka.ms/ButtonCommands to learn how to add more Controls: ExecuteFunction and Menu -->
               </Group>
@@ -118,9 +117,9 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://localhost:44382/Images/icon16.png"/>
-        <bt:Image id="icon32" DefaultValue="https://localhost:44382/Images/icon32.png"/>
-        <bt:Image id="icon80" DefaultValue="https://localhost:44382/Images/icon80.png"/>
+        <bt:Image id="icon16" DefaultValue="https://localhost:44382/Images/Icon16.png"/>
+        <bt:Image id="icon32" DefaultValue="https://localhost:44382/Images/Icon32.png"/>
+        <bt:Image id="icon80" DefaultValue="https://localhost:44382/Images/Icon80.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="functionFile" DefaultValue="https://localhost:44382/Functions/FunctionFile.html"/>

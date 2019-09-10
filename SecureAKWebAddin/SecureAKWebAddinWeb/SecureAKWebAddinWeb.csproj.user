@@ -9,7 +9,8 @@
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
-    <ProfileToSelectInPublishDialog>SecureAK</ProfileToSelectInPublishDialog>
+    <ProfileToSelectInPublishDialog>
+    </ProfileToSelectInPublishDialog>
     <NameOfLastUsedPublishProfile>SecureAK</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
