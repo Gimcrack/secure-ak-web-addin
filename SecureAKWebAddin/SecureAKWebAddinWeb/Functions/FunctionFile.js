@@ -4,16 +4,12 @@
 var encrypt_string = `<br>
 <br>
 <br>
---------Secure AK Use, Do Not Modify---------<br>
-c2FrLWFjdGlvbiBlbmNyeXB0IHN0cmluZw ==<br>
---------Secure AK Use, Do Not Modify---------`;
+[SecureAK Encryption String – Do Not Remove]`;
 
 var decrypt_string = `<br>
 <br>
 <br>
---------Secure AK Use, Do Not Modify---------<br>
-c2FrLWFjdGlvbiBkZWNyeXB0IHN0cmluZw ==<br>
---------Secure AK Use, Do Not Modify---------`;
+[SecureAK Decryption String – Do Not Remove]`;
 
 // Helper function to add a status message to the info bar.
 function statusUpdate(icon, text) {
