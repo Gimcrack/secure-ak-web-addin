@@ -1,15 +1,15 @@
 ﻿Office.initialize = function () {
 }
 
-var encrypt_string = `<br>
+var encrypt_string = `[SecureAK Encryption String – Do Not Remove]
 <br>
 <br>
-[SecureAK Encryption String – Do Not Remove]`;
+<br>`;
 
-var decrypt_string = `<br>
+var decrypt_string = `[SecureAK Decryption String – Do Not Remove]
 <br>
 <br>
-[SecureAK Decryption String – Do Not Remove]`;
+<br>`;
 
 // Helper function to add a status message to the info bar.
 function statusUpdate(icon, text) {
