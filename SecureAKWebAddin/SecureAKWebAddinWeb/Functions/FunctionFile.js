@@ -38,7 +38,7 @@ function encryptAndSend(event) {
 
         var msg = body.value;
 
-        msg = msg.replace(encrypt_string, '').replace(decrypt_string, '') + encrypt_string;
+        msg = encrypt_string + msg.replace(encrypt_string, '').replace(decrypt_string, '');
 
 
         Office.context.mailbox.item.body.setAsync(msg, {
@@ -65,7 +65,7 @@ function decryptAndSend(event) {
 
         var msg = body.value;
 
-        msg = msg.replace(encrypt_string, '').replace(decrypt_string, '') + decrypt_string;
+        msg = decrypt_string + msg.replace(encrypt_string, '').replace(decrypt_string, '');
 
 
         Office.context.mailbox.item.body.setAsync(msg, {
